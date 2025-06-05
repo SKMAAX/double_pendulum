@@ -1,6 +1,6 @@
 % ワークスペースにx_opt、u_opt、K_optが展開されてるなら↓はコメントアウト
-load("SolverOut_pm.mat");
-load("RegulatorOut_pm.mat"); 
+load("pm/SolverOut_pm.mat");
+load("pm/RegulatorOut_pm.mat"); 
 
 g = 9.80665;
 dt = 0.01;
